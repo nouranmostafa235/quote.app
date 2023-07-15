@@ -1,6 +1,5 @@
-
+var prevNum = 11;
 function quotes() {
-    var prevNum = 0;
     var arrayQuotes = [
         {
             quote: '“A room without books is like a body without a soul.”',
@@ -46,8 +45,8 @@ function quotes() {
 
     var num = Math.floor(Math.random() * 10);
     // to handle repetition case 
-    if (prevNum == 0) {
-        prevNum = num
+    if (prevNum == 11) {// to assign first value to variable prevnum
+        prevNum = num 
         document.getElementById('quote').innerHTML = arrayQuotes[num].quote
         document.getElementById('writer').innerHTML = arrayQuotes[num].writer
         return 0;
