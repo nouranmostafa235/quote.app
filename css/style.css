@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+background-image: url(../AdobeStock_302543130.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.title{
+    margin-top: 130px;
+}
+
+.title h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+ p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
